@@ -1,0 +1,47 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jungle Adventure Game</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style1.css">
+</head>
+<body>
+    <header>
+        <h1>Jungle Adventure</h1>
+                <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="howtoplay.html">How to Play</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+
+            </ul>
+        </nav>
+    </header>
+    
+    <div class="game-container">
+        <div class="game">
+            <div id="character"></div>
+            <div id="block"></div>
+            <div id="score">Score: 0</div>
+            <div id="highScore">High Score: 0</div>
+            <div id="superPowerTimer" class="hidden">Super Power: <span id="superPowerTime">10</span>s</div>
+            <div id="powerUpBar">
+                <div id="powerUpFill"></div>
+            </div>
+            <div id="superPowerNotification" class="hidden">Press 'G' to activate super power!</div>
+            <script src="script.js"></script>
+        </div>
+
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Jungle Adventure</p>
+    </footer>
+
+
+</body>
+</html>

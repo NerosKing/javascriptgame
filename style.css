@@ -1,0 +1,115 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-color: #e0f7e9; /* Green background for the entire body */
+    font-family: 'Arial', sans-serif;
+    color: #333;
+}
+
+header {
+    background-color: #2d572c;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.outer-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Full viewport height */
+}
+
+.inner-container {
+    background-color: white; /* White background for the inner container */
+    padding: 20px; /* Optional: Add padding to the inner container */
+    border: 2px solid black; /* Optional: Add border to the inner container */
+}
+
+canvas {
+    display: block;
+    margin: 0 auto; /* Center the canvas horizontally */
+    border: 1px solid black; /* Optional: Add a border to the canvas */
+}
+
+footer {
+    background-color: #2d572c;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+/* .game{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin: 20px 0;
+} */
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    margin: 10px;
+    display: inline-block;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+footer {
+    background-color: #2d572c;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.hidden {
+    display: none;
+}
+
+.button-container{
+    text-align: center;
+}
+
+.button-container > button{
+    margin: 80px;
+}
+
+.game{
+    left: 625px;
+    top: 200px;
+}
+
+.game-container{
+    text-align: center;
+}
